@@ -11,5 +11,13 @@ body {
   background-image: url(../img/ghost.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: center;
+  background-position: left;
+}
+
+p {
+  font-size: larger;
+}
+
+.hidden {
+  display: none;
 }
