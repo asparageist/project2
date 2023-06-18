@@ -9,6 +9,7 @@ window.onload = function () {
     const human = parseInt(document.getElementById("human").value);
     const murder = document.getElementById("murder").value;
     const grasp = document.getElementById("grasp").value;
+    let armsAnswer = "blank";
 
     if (eyes === "Yes") {
       let showResult = document.getElementById("hidePage");
@@ -18,6 +19,15 @@ window.onload = function () {
       showResult.setAttribute("class", "hidden");  
       let showButton = document.getElementById("wellThen");
       showButton.removeAttribute("class", "hidden");
+    }
+    if (arms === "0") {
+      armsAnswer = "How are you clicking on things?";
+    } else if (arms === "1") {
+      armsAnswer = "I love Def Leppard.";
+    } else if (arms === "2") {
+      armsAnswer = "Are you a hugger?";
+    } else if (arms === "3+") {
+      armsAnswer = "That's odd."
     }
   }
 }
