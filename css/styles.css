@@ -1,4 +1,13 @@
+@font-face {
+  font-family: "CustomFont";
+  src: url('../font/KaushanScript-Regular.ttf') format('truetype')
+}
+
 body {
-  
+  font-family: "CustomFont";
   text-align: center;
+  color: red;
+  background-color: black;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
