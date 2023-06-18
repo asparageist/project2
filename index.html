@@ -10,46 +10,54 @@
     <title>Programming Language Suggester</title>
   </head>
   <body>
-    <h1>Let's pick a coding language!</h1>
-    <h2>Answer just a few questions and we'll see what's best for you!</h2>
-    <form id="select-form">
-      <p>Do you have eyes?</p>
-      <select id="eyes">
-        <option>Yes</option>
-        <option>No</option>
-        <option>Sometimes</option>
-      </select>
-      <p>How many arms do you have?</p>
-      <select id="arms">
-        <option>0</option>
-        <option>1</option>
-        <option>2</option>
-        <option>3+</option>
-      </select>
-      <p>Can you pass as human?</p>
-      <select id="human">
-        <option value="1">Yes</option>
-        <option value="2">No</option>
-        <option value="3">Sometimes</option>
-      </select>
-      <p>What was the reason you were murdered?</p>
-      <select id="murder">
-        <option>Vengeance</option>
-        <option>Ambition</option>
-        <option>Random Chance</option>
-        <option>Unsure</option>
-      </select>
-      <p>Have you maintained your grasp of human language?</p>
-      <select id="grasp">
-        <option>Yes</option>
-        <option>asfdfdhfash</option>
-      </select>
-      <button type="submit">Submit Selection</button>
-    </form>
-    <div class="hidden" id="output">
-      <p>
-        <span id="choice">hello</span>
-      </p>
+    <div id="hidePage">
+      <h1>Let's pick a coding language!</h1>
+      <h2>Answer just a few questions and we'll see what's best for you!</h2>
+      <form id="select-form">
+        <p>Do you have eyes?</p>
+        <select id="eyes">
+          <option>Yes</option>
+          <option>No</option>
+        </select>
+        <p>How many arms do you have?</p>
+        <select id="arms">
+          <option>0</option>
+          <option>1</option>
+          <option>2</option>
+          <option>3+</option>
+        </select>
+        <p>Can you pass as human?</p>
+        <select id="human">
+          <option value="1">Yes</option>
+          <option value="2">No</option>
+          <option value="3">Sometimes</option>
+        </select>
+        <p>What was the reason you were murdered?</p>
+        <select id="murder">
+          <option>Vengeance</option>
+          <option>Ambition</option>
+          <option>Random Chance</option>
+          <option>Unsure</option>
+        </select>
+        <p>Have you maintained your grasp of human language?</p>
+        <select id="grasp">
+          <option>Yes</option>
+          <option>asfdfdhfash</option></select
+        ><br />
+        <button type="submit">Submit Selection</button>
+      </form>
+      <div class="hidden" id="output">
+        <p>
+          <span id="choice">hello</span>
+        </p>
+      </div>
     </div>
+    <form class="hidden" id="wellThen">
+      <h1>No Eyes?</h1>
+      <button>Well, then.</button>
+    </form>
+    <form class="hidden" id="tryAgain">
+      <button>Try again</button>
+    </form>
   </body>
 </html>
